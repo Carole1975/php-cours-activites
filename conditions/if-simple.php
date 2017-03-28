@@ -21,6 +21,12 @@ echo "<br><br>";
 // Écrire la condition qui affiche "Non" quand $chat vaut "Chien" et affiche "Oui" quand $chat vaut "Chat" ###//
 $animal = "Chien";
 echo "2.Est-ce un chat : ";
+if($animal!="chat"){
+	echo "Non";
+}
+else{
+	echo "Oui";
+}
 //mettre votre code ici
 echo "<br><br>";
 
@@ -28,5 +34,11 @@ echo "<br><br>";
 // Écrire la condition qui affiche "Oui" quand $chat vaut true et affiche "Non" dans le cas contraire ###//
 $chat = true;
 echo "3.Est-ce un chat : ";
+if($chat=true){
+	echo "Oui";
+}
+else{
+	echo "Non";
+}
 //mettre votre code ici
 echo "<br><br>";
