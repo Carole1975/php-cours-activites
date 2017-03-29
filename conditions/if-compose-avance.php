@@ -6,14 +6,14 @@ echo "CONDITIONS COMPOSEES AVANCEES <br><br><br>";
 
 $animal = "Chat";
 $vivant = true;
-$couleur = "Blanc";
+$couleur = "Blanche";
 $yeux = "Vert";
 
 echo "1.Est ce que c'est mon chat ? ";
 echo "<br>";
-echo "Mon chat est vivant, de couleur blanc et a les yeux Vert";
+echo "Mon chat est vivant, de couleur blanche et a les yeux Vert";
 echo "<br>";
-if($animal == "Chat" && $vivant && $couleur = "Blanc" && $yeux = "Vert"){
+if($animal == "Chat" && $vivant && $couleur = "Blanche" && $yeux = "Vert"){
   echo "Oui";
 }else{
   echo "Non";
@@ -37,7 +37,7 @@ $couleur = "Marron";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
+if($animal == "Chat" && $vivant && $couleur = "Marron" && $yeux = "Vert"){
   echo 'Oui';
 }else {
   echo 'Non';
@@ -57,7 +57,7 @@ $couleur = "Blanc";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
+if($animal == "Chat" && $vivant && $couleur = "Blanc" && $yeux = "Vert"){
   echo 'Oui';
 }else {
   echo 'Non';
@@ -77,7 +77,7 @@ $couleur = "Noir";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
+if($animal == "Chien" && $vivant && $couleur = "Noir" && $yeux = "Vert"){
   echo 'Oui';
 }else {
   echo 'Non';
